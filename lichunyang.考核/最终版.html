@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
+    <style type="text/css">
+        body {
+            margin: 0%;
+        }
+        
+        #container {
+            height: 100%;
+            width: auto;
+            border: #F3A033;
+            box-shadow: 0 0 5px yellow;
+        }
+        
+        #header {
+            height: 20px;
+            width: auto;
+            border: 1px solid black;
+        }
+        
+        #write {
+            height: 480px;
+            width: auto;
+            border: 1px solid grey;
+            margin: auto;
+        }
+        
+        #text {
+            height: 200px;
+            width: auto;
+            border: 1px solid pink;
+            line-height: 200px;
+            text-align: center;
+        }
+        
+        #text span {
+            background: linear-gradient(to right, orange, yellow);
+            -webkit-background-clip: text;
+            color: transparent;
+            font-size: 40px;
+            font-weight: bold;
+        }
+        
+        #picture {
+            height: 50px;
+            width: auto;
+            border: #F3A033;
+            box-shadow: 5 5 5px yellow;
+        }
+        
+        #number {
+            height: 100px;
+            width: auto;
+            padding-top: 20px;
+            text-align: center;
+            line-height: 100px;
+            border: 1px solid green;
+        }
+        
+        #number span {
+            background: linear-gradient(to right, orange, yellow);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+        
+        #register.accept {
+            margin-left: 10px;
+        }
+        
+        #checkbox-style {
+            margin-top: 10%;
+            margin-left: 15%;
+            font-size: 10px;
+            text-decoration: none;
+        }
+        
+        #register .regbutton {
+            height: 30px;
+            width: 150px;
+            text-align: center;
+            line-height: 100%;
+            padding: 0.3em;
+            font: 16px Airal, sans-serif bold;
+            font-style: normal;
+            text-decoration: none;
+            margin-top: 50px;
+            margin-left: 83px;
+            vertical-align: text-bottom;
+            zoom: 1;
+            outline: none;
+            font-size-adjust: none;
+            font-stretch: normal;
+            border-radius: 50px;
+            box-shadow: (0, 0, 0, 0.2);
+            text-shadow: (0, 0, 0, 0.3);
+            color: rgb(247, 240, 243);
+            border: 0.2px solid #F3A033;
+            background-repeat: repeat;
+            background-size: auto;
+            background-origin: padding-box;
+            background-clip: padding-box;
+            background-color: rgb(255, 181, 85);
+            background: linear-gradient(to bottom, rgb(230, 159, 6) 0%, rgb(244, 247, 98)100%);
+        }
+    </style>
+    <script type="text/javascript">
+    </script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="header"></div>
+
+        <div id="write">
+            <div id="text"><span>沈理每一天尽在大会员</span></div>
+            <div id="picture"></div>
+            <div id="number">
+                <span>手机号注册</span>
+                <input type="text" value="+86"></input>
+            </div>
+            <div id="register">
+                <div id="checkbox-style">
+                    <input class="accept" type="checkBox" οnclick="if (this.checked) {enable()} else {disable()}"><a href="#">已经阅读并同意服务协议</a></input>
+                </div>
+
+                <form action="http://www.baidu.com" method="POST">
+                    <input class="regbutton" type="submit" value="注册" name="can">
+
+                </form>
+            </div>
+        </div>
+        <div id="footer"></div>
+    </div>
+    </div>
+</body>
+
+</html>
